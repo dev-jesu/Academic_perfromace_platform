@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from typing import List
-from .database import get_supabase
-from .models import Student, StudentCreate
+from ..database import get_supabase
+from ..models import Student, StudentCreate
 
 router = APIRouter(prefix="/students", tags=["students"])
 

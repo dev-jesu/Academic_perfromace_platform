@@ -175,3 +175,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Local Utility Scripts
+backend/app/seed_db.py
+backend/app/test_db.py

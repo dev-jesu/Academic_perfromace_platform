@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import EmailStr
-from .database import get_supabase
-from .models import UserLogin, Token
+from ..database import get_supabase
+from ..models import UserLogin, Token
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
